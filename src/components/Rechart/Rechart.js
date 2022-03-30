@@ -55,7 +55,8 @@ const Rechart = () => {
       ];
     return (
      
-     <LineChart width={400} height={400} data={data}>
+     
+         <LineChart width={400} height={400} data={data}>
             <Line dataKey={'pv'}></Line>
             <Line dataKey={'uv'}></Line>
             <YAxis></YAxis>
@@ -63,6 +64,7 @@ const Rechart = () => {
             <Tooltip></Tooltip>
             
         </LineChart>
+     
      
     );
 };
